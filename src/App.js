@@ -7,10 +7,12 @@ const App = () => {
 
   return (
     <div className="app">
-      <button className="btn" onClick={() => setOpenModal(true)}>Open Modal</button>
-      {openModal && 
-        <Modal setOpenModal={setOpenModal}/>
-      }
+      <div className="positioned-parent">
+        <button className="btn" onClick={() => setOpenModal(true)}>Open Modal</button>
+        {openModal && 
+          <Modal setOpenModal={setOpenModal}/>
+        }
+      </div>
     </div>
   );
 }

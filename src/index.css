@@ -20,6 +20,15 @@ code {
   justify-content: center;
 }
 
+.positioned-parent {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn {
   cursor: pointer;
   padding: 10px 20px;
