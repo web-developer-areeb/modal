@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #33cccc;
+  border: 1px solid  #2eb8b8;
+}
+
+.app button:hover {
+  background:  #2eb8b8;
+  color: white;
+}
+
+.modal-layover {
+  background: #777;
+  opacity: .8;
+  position: absolute;
+  inset: 0;
+}
+
+.modal-message {
+  inset: 30%;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+}
+
+.modal-message p {
+  padding: 50px 50px 10px;
+}
+
+.modal-message_button-wrapper {
+  margin: 10px 10px 10px auto;
+  text-align: right;
+}
+.modal-message .btn {
+}
